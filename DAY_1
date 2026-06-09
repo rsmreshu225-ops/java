@@ -1,0 +1,126 @@
+class first{
+    /**
+     * @param args
+     */
+    public static void main(String args[]){
+        // System.out.println("Hello goodmorining, its my first programme");
+        // int a=50;
+        // int b=60;
+        // float sum=a+b;
+        // System.out.println(sum);
+// --------------------------------------------------------
+        // STDENT DETAILS
+
+        // String name = "Resham";
+        // int sem = 7;
+        // String reg_no = "1bm24cs417";
+        // double cgpa = 7.30;
+
+        // System.out.println("Name:" +name);
+        // System.out.println("Sem:" +sem);
+        // System.out.println("Reg_No:" +reg_no);
+        // System.out.println("CGPA:" +cgpa);
+
+// ---------------------------------------------------------
+        // Calculate Area of Rectangle
+        // double length = 18.00;
+        // double width = 16.00;
+        // double area = length * width ;
+        // System.out.println("area of rectangle is " +area);
+
+// ---------------------------------------------------
+
+// Swap Two Variables
+    // int a=5;
+    // int b=6;
+    // int temp;
+
+
+    // temp=a;
+    // a=b;
+    // b=temp;
+
+    // System.out.println("a is " +a);
+    // System.out.println("b is " +b);
+// --------------------------------------------------
+
+    // convert celcius to fahrenheit
+    //  double celcius=25;
+    //  double fahrenheit;
+
+    //  fahrenheit = (celcius * 9/5) + 32;
+    //  System.out.println("after converting celcius to fahrenheit \n" +fahrenheit);
+
+// --------------------------------------------------------
+
+// finding avg of 3 numbers
+
+// int a=5;
+// int b=6;
+// int c=9;
+// double avg=(a+b+c)/3;
+// System.out.println("avergae of 3 numbers\n"+avg);
+
+// ------------------------------------------------------------
+
+// simple interset
+
+// double principle = 8.0;
+// double rate = 9.0;
+// double time = 2.0;
+
+// double interest = (principle*rate*time)/100;
+// System.out.println("Simple intrest is\n"+interest);
+
+// -----------------------------------------------------------
+
+// area of circle
+
+// double pi=3.14;
+// double radius=6;
+
+// double circle=Math.PI*radius*radius;
+// System.out.println("Area of circle is \n"+circle);
+// ----------------------------------------------------
+
+// rectangle perimeter
+//   double length=5;
+//   double width=7;
+//   double  perimeter=2*(length*width);
+//   System.out.println("rectangle permeter is\n" +perimeter);
+// -------------------------------------------------------------
+
+// kilometers to meter
+
+// double kilometers=5;
+// double meters;
+// meters=kilometers*1000;
+// System.out.println("kilometers to meters\n"+meters);
+// ---------------------------------------------------
+
+// square of number
+
+// int a=5;
+// int square=a*a;
+// System.out.println("square of numbers\n"+square);
+
+// ------------------------------------------------------
+
+// cube of number
+
+// int a=3;
+// int cube=a*a*a;
+// System.out.println("cube of number\n"+cube);
+
+// ---------------------------------------
+
+// basic salary allowance
+
+// double basic=10000;
+// double allowance=5000;
+// double gross_salary=basic+allowance;
+// System.out.println("gross salary is\n"+gross_salary);
+    }
+
+
+}
