@@ -1,0 +1,77 @@
+import java.util.Scanner;
+public class firstchallenge {
+    public static void main(String args[]){
+//         String Student_name="Resham";
+        
+//         int python=80;
+//         int dsa=67;
+//         int java=90;
+//         double total=python+java+dsa;
+//         double avg=total/3;
+
+
+
+//         System.out.println("Student1: "+Student_name);
+//         System.out.println("marks in 3 subjects");
+//         System.out.println("python: "+python);
+//         System.out.println("dsa: "+dsa);
+//         System.out.println("java: "+java);
+//         System.out.println("total: "+total);
+//         System.out.println("average: "+avg);
+
+// String Student_name1="Riya";
+        
+//         int python1=70;
+//         int dsa1=87;
+//         int java1=70;
+//         double total1=python1+java1+dsa1;
+//         double avg1=total1/3;
+
+//         System.out.println("\nStudent1: "+Student_name1);
+//         System.out.println("marks in 3 subjects");
+//         System.out.println("python: "+python1);
+//         System.out.println("dsa: "+dsa1);
+//         System.out.println("java: "+java1);
+//         System.out.println("total: "+total1);
+//         System.out.println("average: "+avg1);
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter no of students:");
+        int n=sc.nextInt();
+        sc.nextLine();
+
+        for (int i=1; i<=n; i++){
+            System.out.println("Student "+i);
+            
+            System.out.println("Name:");
+            String name=sc.nextLine();
+            
+
+            System.out.println("java marks:");
+            int java=sc.nextInt();
+            sc.nextLine();
+
+            System.out.println("python marks:");
+            int python=sc.nextInt();
+            sc.nextLine();
+
+            System.out.println("dsa marks:");
+            int dsa=sc.nextInt();
+            sc.nextLine();
+
+            double total = java+python+dsa;
+            double average=total/3;
+            
+            System.err.println("------------Student report--------");
+            System.out.println("Name:"+name);
+            System.out.println("Total:"+total);
+            System.out.println("Average:"+average);
+            System.out.println("------------------end-----------");
+
+        }
+        sc.close();
+
+    }
+    
+}
